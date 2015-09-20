@@ -1,4 +1,4 @@
-#/usr/bin/env python
+#!/usr/bin/python
 """
 This simple example is used for the line-by-line tutorial
 that comes with pygame. It is based on a 'popular' web banner.
@@ -80,8 +80,8 @@ class Face(pygame.sprite.Sprite):
         screen = pygame.display.get_surface()
         self.area = screen.get_rect()
         self.rect.topleft = 10, 10
-        self.move_x = 50
-        self.move_y = 50
+        self.move_x = 10
+        self.move_y = 10
         self.dizzy = 0
 
     def update(self):
