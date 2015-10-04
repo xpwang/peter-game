@@ -1,0 +1,16 @@
+
+# check out origin master
+git clone https://github.com/xpwang/peter-game.git
+
+# change directory to peter-game/ folder
+cd peter-game
+
+# configure git access
+git config --global user.name "<gitbub username>"
+git config --global user.email "<github email>"
+
+# create your new branch
+git checkout -b <new branch name>
+
+# push your branch on to github
+git push origin <new branch name>
